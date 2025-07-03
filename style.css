@@ -1,0 +1,106 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header */
+header {
+  background-color: #003366;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.logo {
+  width: 60px;
+  vertical-align: middle;
+}
+
+/* Navigation Bar */
+nav {
+  background-color: #0055a5;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav ul li {
+  float: left;
+}
+
+nav ul li a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  padding: 14px 20px;
+}
+
+nav ul li a:hover {
+  background-color: #003366;
+}
+
+/* Container Layout */
+.container {
+  display: flex;
+  margin: 20px;
+}
+
+/* Sidebar */
+aside {
+  width: 25%;
+  padding: 20px;
+  background-color: #f2f2f2;
+}
+
+aside ul {
+  list-style: none;
+  padding: 0;
+}
+
+aside ul li a {
+  text-decoration: none;
+  color: #333;
+  display: block;
+  padding: 5px 0;
+}
+
+/* Main Content */
+main {
+  width: 75%;
+  padding: 20px;
+}
+
+.image-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.img-box {
+  width: 48%;
+}
+
+.img-box img {
+  width: 100%;
+  height: auto;
+}
+
+footer {
+  background-color: #003366;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 20px;
+}
+
+.footer-logo {
+  width: 50px;
+  display: block;
+  margin: 0 auto 10px;
+}
